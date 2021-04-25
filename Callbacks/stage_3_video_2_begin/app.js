@@ -8,3 +8,12 @@ nameInput.addEventListener('focus', event => {
 nameInput.addEventListener('blur', event => {
   event.target.className = '';
 });
+
+
+messageTextArea.addEventListener('focus', event => {
+  event.target.className = 'highlight';
+});
+
+messageTextArea.addEventListener('blur', event => {
+  event.target.className = '';
+});
